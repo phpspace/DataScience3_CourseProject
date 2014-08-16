@@ -1,7 +1,5 @@
----
-title: "Codebook"
-output: html_document
----
+# Codebook
+
 
 ## UCI HAR Dataset
 
