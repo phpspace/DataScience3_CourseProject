@@ -41,25 +41,24 @@ Each record contains:
 
 2. <b>Activity</b>: type:factor - Identifier of the activity, may assume one of the following:
 
-	* WALKING
+        * WALKING
 
-	* WALKING_UPSTAIRS
+        * WALKING_UPSTAIRS
 
-	* WALKING_DOWNSTAIRS
+        * WALKING_DOWNSTAIRS
 
-	* SITTING
+        * SITTING
 
-	* STANDING
+        * STANDING
 
-	* LAYING
+        * LAYING
 
-	Additionally, the tidy dataset contains the MEAN of each of the following attributes by SubjectID and Activity:
+        Additionally, the tidy dataset contains the MEAN of each of the following attributes by SubjectID and Activity:
 
-	<font color="red">
-	<i>IMPORTANT 1: in the dataset, all columns are identified with "[MEAN]" to emphasize it is the mean that is being reported.</i>
+        <font color="red"><i>IMPORTANT 1: in the dataset, all columns are identified with "[MEAN]" to emphasize it is the mean that is being reported.</i>
 
-	<i>IMPORTANT 2: features were normalized and bounded within [-1;1] in the original dataset. As this tidy dataset just averaged values from the original one, it is also bounded within [-1;1].</i>
-	</font>
+        <i>IMPORTANT 2: features were normalized and bounded within [-1;1] in the original dataset. As this tidy dataset just averaged values from the original one, it is also bounded within [-1;1].</i>
+        </font>
 
 3. <b>tBodyAcc-mean()-X [MEAN]</b> type:numeric
 
